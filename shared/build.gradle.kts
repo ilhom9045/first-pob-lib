@@ -77,7 +77,7 @@ kotlin {
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'Some description for the Shared Module'
-    spec.vendored_frameworks      = 'cocoapods/release/$libVersion/shared.xcframework'
+    spec.vendored_frameworks      = 'cocoapods/release/$libVersion/$libName.xcframework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target = '12.0'
          

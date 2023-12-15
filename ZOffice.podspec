@@ -6,7 +6,7 @@
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'Some description for the Shared Module'
-    spec.vendored_frameworks      = 'cocoapods/release/1.0.2/shared.xcframework'
+    spec.vendored_frameworks      = 'cocoapods/release/1.0.2/ZOffice.xcframework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target = '12.0'
          
