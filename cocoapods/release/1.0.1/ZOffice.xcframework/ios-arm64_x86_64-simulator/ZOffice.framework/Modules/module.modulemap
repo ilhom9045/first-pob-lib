@@ -1,0 +1,6 @@
+framework module ZOffice {
+    umbrella header "ZOffice.h"
+
+    export *
+    module * { export * }
+}
