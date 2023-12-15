@@ -66,6 +66,7 @@ kotlin {
                     from("$rootDir/shared/build/cocoapods/publish/release")
                     into(cocoapodsDir)
                 }
+                File("$rootDir","shared.podspec").delete()
                 File("$rootDir","$libName.podspec").delete()
                 File("$rootDir","$libName.podspec").appendText("""
                 Pod::Spec.new do |spec|
