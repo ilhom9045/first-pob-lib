@@ -1,6 +1,6 @@
 {
   "name": "shared",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "homepage": "Link to the Shared Module homepage",
   "source": {
     "http": ""
@@ -11,7 +11,7 @@
   "vendored_frameworks": "build/cocoapods/framework/ZOffice.framework",
   "libraries": "c++",
   "platforms": {
-    "ios": "16.0"
+    "ios": "12.0"
   },
   "pod_target_xcconfig": {
     "KOTLIN_PROJECT_PATH": ":shared",

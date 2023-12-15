@@ -27,7 +27,7 @@ kotlin {
         summary = "Some description for the Shared Module"
         homepage = "Link to the Shared Module homepage"
         version = libVersion
-        ios.deploymentTarget = "16.0"
+        ios.deploymentTarget = "12.0"
         podfile = project.file("../iosApp/Podfile")
         framework {
             baseName = libName
@@ -78,7 +78,7 @@ kotlin {
     spec.summary                  = 'Some description for the Shared Module'
     spec.vendored_frameworks      = 'cocoapods/release/$libVersion/shared.xcframework'
     spec.libraries                = 'c++'
-    spec.ios.deployment_target = '14.1'
+    spec.ios.deployment_target = '12.0'
          
 end
             """.trimIndent(),Charsets.UTF_8)
