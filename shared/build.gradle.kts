@@ -8,7 +8,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
 }
 
-val libVersion = "1.0.4"
+val libVersion = "1.0.5"
 val libName = "ZOffice"
 
 kotlin {
